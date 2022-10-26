@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const healthCategorySchema = new mongoose.Schema({
   bmi: {
-    type: String,
+    type: Number,
     required: [true],
   },
   bmi_category: {
